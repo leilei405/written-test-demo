@@ -18,7 +18,7 @@ const Basic: React.FC = () => {
         <Input />
       </Form.Item>
 
-      <Form.Item name="password">
+      <Form.Item name="remark">
         <Input.TextArea />
       </Form.Item>
 
