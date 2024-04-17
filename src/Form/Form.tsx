@@ -4,9 +4,7 @@ import FormContext from "./formContexts";
 
 // 参数传入初始值 initialValues
 // 点击提交的回调 onFinish
-// 点击提交有错误时的回调 onFinishFailed。
 // 这里的 Record<string,any>是ts的类型，任意的对象的意思。
-// 用useState保存values，用useRef保存errors和validator
 export interface FormProps extends React.HTMLAttributes<HTMLFormElement> {
   className?: string;
   style?: CSSProperties;
