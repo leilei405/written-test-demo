@@ -3,8 +3,7 @@ import Form from "./index";
 
 interface valuesProps {
   username?: string;
-  password?: string;
-  remember?: boolean;
+  remark?: string;
 }
 
 const Basic: React.FC = () => {
